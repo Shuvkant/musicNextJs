@@ -2,6 +2,7 @@ import Image from "next/image";
 import HeroSection from "@/components/HeroSection.tsx";
 import FeaturedCourses from "@/components/FeaturedCourses.tsx";
 import WhyChooseUs from "@/components/WhyChooseUs.tsx";
+import MusicSchoolTestimonials from "@/components/TestimonialCards.tsx";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <FeaturedCourses />
       <WhyChooseUs />
+      <MusicSchoolTestimonials />
     </main>
   );
 }
