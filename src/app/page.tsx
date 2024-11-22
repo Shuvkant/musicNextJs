@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/WhyChooseUs.tsx";
 import MusicSchoolTestimonials from "@/components/TestimonialCards.tsx";
 import UpcomingWebinars from "@/components/UpcomingWebinars.tsx";
 import Instructors from "@/components/Instructors.tsx";
+import Footer from "@/components/Footer.jsx";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <MusicSchoolTestimonials />
       <UpcomingWebinars />
       <Instructors />
+      <Footer />
     </main>
   );
 }
