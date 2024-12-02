@@ -5,7 +5,7 @@ import WhyChooseUs from "@/components/WhyChooseUs.tsx";
 import MusicSchoolTestimonials from "@/components/TestimonialCards.tsx";
 import UpcomingWebinars from "@/components/UpcomingWebinars.tsx";
 import Instructors from "@/components/Instructors.tsx";
-import Footer from "@/components/Footer.jsx";
+import Footer from "@/components/Footer.tsx";
 
 export default function Home() {
   return (
