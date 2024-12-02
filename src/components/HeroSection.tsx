@@ -18,12 +18,12 @@ const HeroSection = () => {
           Dive into our comprehensive music courses and transform your musical
           journey today. Whether you're a beginner or looking to refine your
           skills, join us to unlock your true potential.
-          <div className="mt-4">
-            <Link href={"/courses"}>
-              <Button>Explore Courses</Button>
-            </Link>
-          </div>
         </p>
+        <div className="mt-4">
+          <Link href={"/courses"}>
+            <Button>Explore Courses</Button>
+          </Link>
+        </div>
       </div>
     </div>
   );
