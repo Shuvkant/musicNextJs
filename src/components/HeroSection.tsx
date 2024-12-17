@@ -1,4 +1,4 @@
-import Link from "../../node_modules/next/link.d.ts";
+import Link from "next/link";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight.tsx";
 import { Button } from "./ui/moving-border";
