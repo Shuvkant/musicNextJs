@@ -4,6 +4,7 @@ import { cn } from "@/utils/cn";
 import Image from "next/image";
 import React, {
   createContext,
+  useCallback,
   useContext,
   useEffect,
   useRef,
@@ -121,11 +122,7 @@ export const CardItem = ({
   const ref = useRef<HTMLDivElement>(null);
   const [isMouseEntered] = useMouseEnter();
 
-  useEffect(() => {
-    handleAnimations();
-  }, [isMouseEntered]);
-
-  const handleAnimations = () => {
+  const handleAnimations = useCallback(() => {
     if (!ref.current) return;
     if (isMouseEntered) {
       ref.current.style.transform =
@@ -134,7 +131,19 @@ export const CardItem = ({
       ref.current.style.transform =
         `translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)`;
     }
-  };
+  }, [
+    isMouseEntered,
+    translateX,
+    translateY,
+    translateZ,
+    rotateX,
+    rotateY,
+    rotateZ,
+  ]);
+
+  useEffect(() => {
+    handleAnimations();
+  }, [handleAnimations]);
 
   return (
     <Tag
