@@ -10,8 +10,8 @@ const contact = () => {
             <div className="md:w-1/3  p-8 text-white">
               <h2 className="text-2xl font-semibold">Contact Us</h2>
               <p className="mt-4 text-blue-100">
-                We'd love to hear from you! Please fill out the form and we'll
-                get in touch as soon as possible.
+                We&apos;d love to hear from you! Please fill out the form and
+                we&apos;ll get in touch as soon as possible.
               </p>
               <div className="mt-6 space-y-4">
                 <div className="flex items-column">
