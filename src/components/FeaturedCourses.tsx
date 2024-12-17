@@ -1,7 +1,7 @@
 "use client";
-import Link from "../../node_modules/next/link.d.ts";
+import Link from "next/link";
 import React from "react";
-import courseData from "../data/music_courses.json";
+import courseData from "@/data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient.tsx";
 
 interface Course {
