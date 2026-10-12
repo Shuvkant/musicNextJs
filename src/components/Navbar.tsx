@@ -29,7 +29,9 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/courses">
               Advanced Composition
             </HoveredLink>
-            <HoveredLink href="/courses">Songwriting</HoveredLink>
+            <HoveredLink href="/courses">
+              Songwriting
+            </HoveredLink>
             <HoveredLink href="/courses">
               Music Production
             </HoveredLink>
